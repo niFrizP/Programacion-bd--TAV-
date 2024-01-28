@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F1A70AA-894B-BC45-1538-EA4D32917AEC" name="ANTECEDENTES_PERSONALES">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>ANTECEDENTES_PERSONALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMRUN" id="E1630485-0D02-70B8-E5AF-CF2B217FF1EA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>NUMRUN</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVRUN" id="A140490C-E53D-58CE-C3AA-1E7A6ECE22EE">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>DVRUN</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNOMBRE" id="81B26EEE-E5E2-F80F-7FBF-7EEF08DAC8DC">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>PNOMBRE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNOMBRE" id="46A28E6F-0AE7-D49B-8171-B98233219FDA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>SNOMBRE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APATERNO" id="C94595B2-52A2-854F-F94A-20EE97A6EE61">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>APATERNO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMATERNO" id="24AAEB8B-0DDB-9EC6-54F9-8B793C467334">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>AMATERNO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="689B3A15-5399-3B9E-A057-F8542DC23A8C">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>FECHA_NACIMIENTO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO_CONTACTO" id="2DE86910-2924-7119-9374-68BFFDDBC717">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>TELEFONO_CONTACTO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PUEBLO_IND" id="821C371C-A708-EB44-7CDA-B1F48AC968AD">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_PERSONALES</sourceObjSchema>
+<sourceObjName>COD_PUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D8A0194-C0ED-D9A5-7B94-A30F489F60A6" referredColumn="F3A5F854-8DF4-0CD1-A1E9-7BBFC07E8E96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47F3FCF7-31A5-2CCA-5F6E-D8F73A29A987" name="PK_ANT_PERSONALES">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_ANT_PERSONALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1630485-0D02-70B8-E5AF-CF2B217FF1EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="947A2544-9AF7-DA35-83F0-814B1041B4B3" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_ANT_PERSONALES">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_ANT_PERSONALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:02 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1630485-0D02-70B8-E5AF-CF2B217FF1EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C08E839B-DB69-CC1B-B642-D1582D15D503" name="FK_ANT_PER_PIND">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="821C371C-A708-EB44-7CDA-B1F48AC968AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C9CAAF8-2ABA-990F-243B-3803EFC0F833" name="ANTECEDENTES_LABORALES">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>ANTECEDENTES_LABORALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMRUN" id="995A1335-9A37-A81D-5506-BA33A72C5884">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_LABORALES</sourceObjSchema>
+<sourceObjName>NUMRUN</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="240721EE-AE5E-DF66-725B-141CF469A1F5" referredColumn="E1630485-0D02-70B8-E5AF-CF2B217FF1EA"/>
+</associations>
+</Column>
+<Column name="FECHA_CONTRATO" id="47981A53-44F7-D240-B984-5DCE30F7C046">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_LABORALES</sourceObjSchema>
+<sourceObjName>FECHA_CONTRATO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORAS_SEMANALES" id="DB12A85F-8642-F837-6690-0966FC00DAE9">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_LABORALES</sourceObjSchema>
+<sourceObjName>HORAS_SEMANALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTABLECIMIENTO" id="A5E5DF03-B7E4-544D-3788-EA0C25FF0FAB">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_LABORALES</sourceObjSchema>
+<sourceObjName>ESTABLECIMIENTO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_SERV_EDUCP" id="4CB4F4E0-74D5-4036-9B3D-D358B6ACB40D">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ANTECEDENTES_LABORALES</sourceObjSchema>
+<sourceObjName>COD_SERV_EDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD1A90A1-BFF1-72BE-A5D0-85BA291654E3" referredColumn="D25AE0FC-16FD-224F-DF5D-0C20A03088EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="452F5E00-8EAB-02DD-A83E-E2CF95AF77B7" name="PK_ANT_LABORALES">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_ANT_LABORALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="995A1335-9A37-A81D-5506-BA33A72C5884"/>
+<colUsage columnID="47981A53-44F7-D240-B984-5DCE30F7C046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="816F54A5-718C-00EB-5049-A88320D83FB9" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_ANT_LABORALES">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_ANT_LABORALES</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:02 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="995A1335-9A37-A81D-5506-BA33A72C5884"/>
+<colUsage columnID="47981A53-44F7-D240-B984-5DCE30F7C046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D67D38D1-09A3-4E58-413E-A0FEF799FE76" name="FK_ANT_LAB_ANT_PER">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="995A1335-9A37-A81D-5506-BA33A72C5884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6CDAA9E-91F7-AE52-1A8F-C2437FE746B8" name="FK_ANT_LAB_SERVEDUCP">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB4F4E0-74D5-4036-9B3D-D358B6ACB40D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

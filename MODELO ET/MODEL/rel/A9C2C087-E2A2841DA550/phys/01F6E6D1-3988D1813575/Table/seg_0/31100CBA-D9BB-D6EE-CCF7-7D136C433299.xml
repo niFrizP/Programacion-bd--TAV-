@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PTJE_ANNOS_EXPERIENCIA" directorySegmentName="seg_0" id="31100CBA-D9BB-D6EE-CCF7-7D136C433299">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8A77A065-8728-F35E-21D2-B9F67F4DAF9E</segment>
+<tableSpace>7902A95A-776F-ED57-222C-BE880B711203</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RANGO_ANNOS_INI" id="B219CCF2-FFDF-A17E-4C3B-6AB975D0AB77">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RANGO_ANNOS_TER" id="CF09D341-F845-B77B-3603-8F5AAD7FF9B0">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_EXPERIENCIA" id="E66CEFFB-E073-B030-810C-9C7B5285D07C">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PTJE_ANNOS_EXP" id="527A691B-36DA-54E7-81C6-A7087DE4F1AA">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<schemaObject>B27C083D-4135-3ACC-9DFB-D4DBE3A116D5</schemaObject>
+<segment>98D9E911-3FEF-C033-CE5B-3C3956CAE33B</segment>
+<tableSpace>7902A95A-776F-ED57-222C-BE880B711203</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PTJE_ANNOS_EXP" id="82CDF6AE-0578-0E14-25EC-6AB48C0870A1">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<segment>98D9E911-3FEF-C033-CE5B-3C3956CAE33B</segment>
+<tableSpace>7902A95A-776F-ED57-222C-BE880B711203</tableSpace>
+<existingIndex>527A691B-36DA-54E7-81C6-A7087DE4F1AA</existingIndex>
+<indexSegment>98D9E911-3FEF-C033-CE5B-3C3956CAE33B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

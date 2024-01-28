@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7496B65-642A-F3F2-1098-C0AD45D10510" containerWithKeyObject="DE0A7232-38D1-08FF-4204-212A44402568" localFKIndex="5548ABD5-AE8B-62D6-60A7-047E5369C662" name="FK_POST_PROG_ESP_PROG">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>FK_POST_PROG_ESP_PROG</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<referredTableLongName>PASANTIA_PERFECCIONAMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D12207E4-DB08-9F34-6CC9-904C890086F9</referredTableID>
+<keyObject>02566007-C098-12BC-82CA-F92B3C621D3A</keyObject>
+<referredKeyID>02566007-C098-12BC-82CA-F92B3C621D3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_PROGRAMA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

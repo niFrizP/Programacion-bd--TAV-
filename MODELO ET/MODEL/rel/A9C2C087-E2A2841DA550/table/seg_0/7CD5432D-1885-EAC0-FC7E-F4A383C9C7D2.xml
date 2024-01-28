@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CD5432D-1885-EAC0-FC7E-F4A383C9C7D2" name="SERVICIO_LOCAL_EDUCP">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>SERVICIO_LOCAL_EDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SERV_EDUCP" id="D25AE0FC-16FD-224F-DF5D-0C20A03088EA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>SERVICIO_LOCAL_EDUCP</sourceObjSchema>
+<sourceObjName>COD_SERV_EDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_SERV_EDUCP" id="B8D3B513-322A-83BB-BE2C-C53ED092467B">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>SERVICIO_LOCAL_EDUCP</sourceObjSchema>
+<sourceObjName>DESC_SERV_EDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONA_RURAL" id="28084B45-61A4-FD6B-9D09-8F7C26F0FA51">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>SERVICIO_LOCAL_EDUCP</sourceObjSchema>
+<sourceObjName>ZONA_RURAL</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REGION" id="FB4C74FA-18E7-A83C-6199-63E466ECC6E3">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>SERVICIO_LOCAL_EDUCP</sourceObjSchema>
+<sourceObjName>COD_REGION</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03A92EFD-C22D-FB7E-A88F-A272E9E7FB23" referredColumn="18F54D67-C41F-7EC4-7952-E35E1DF4A8A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="599E20ED-CFCF-3CE5-7EA6-80CD085A6ABC" name="PK_SERV_LOCAL_EDUCP">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_SERV_LOCAL_EDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D25AE0FC-16FD-224F-DF5D-0C20A03088EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A80EF6CF-274B-B7D7-4D4D-688BFEC5FF8B" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_SERV_LOCAL_EDUCP">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_SERV_LOCAL_EDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D25AE0FC-16FD-224F-DF5D-0C20A03088EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="121443BB-D60F-126D-2A1F-7C8FA8CB3E44" name="FK_SERV_LOCALEP_REGION">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB4C74FA-18E7-A83C-6199-63E466ECC6E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE0A7232-38D1-08FF-4204-212A44402568" name="POSTULACION_PASANTIA_PERFEC">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>POSTULACION_PASANTIA_PERFEC</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMRUN" id="17350DF4-E997-49CD-2A41-CB18DF1DB6EF">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>POSTULACION_PASANTIA_PERFEC</sourceObjSchema>
+<sourceObjName>NUMRUN</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FCFB0BD-AC39-2F39-2D6F-431C95375575" referredColumn="E1630485-0D02-70B8-E5AF-CF2B217FF1EA"/>
+</associations>
+</Column>
+<Column name="COD_PROGRAMA" id="EE530CD4-1378-2301-884E-3EC824868503">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>POSTULACION_PASANTIA_PERFEC</sourceObjSchema>
+<sourceObjName>COD_PROGRAMA</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7496B65-642A-F3F2-1098-C0AD45D10510" referredColumn="BCAE374E-84DE-D642-A763-A5E9DF14EFAA"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="190A79B1-8D01-3D6C-3023-1C1DA57A59D1">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>POSTULACION_PASANTIA_PERFEC</sourceObjSchema>
+<sourceObjName>FECHA_INICIO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_TERMINO" id="0DCF9911-9202-06FE-148C-81BAAF313AF4">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>POSTULACION_PASANTIA_PERFEC</sourceObjSchema>
+<sourceObjName>FECHA_TERMINO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8B93D98-A5F0-1BF5-8634-65DEFEBBF041" name="PK_POST_PROG_ESP">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_POST_PROG_ESP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17350DF4-E997-49CD-2A41-CB18DF1DB6EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6BF0A85-53D8-4875-1D28-97999021EAAC" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_POST_PROG_ESP">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_POST_PROG_ESP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17350DF4-E997-49CD-2A41-CB18DF1DB6EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85E83AD9-DD3C-E299-AB9F-0B6EA9C2E0FF" name="FK_POST_PROG_ESP_ANTPER">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17350DF4-E997-49CD-2A41-CB18DF1DB6EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5548ABD5-AE8B-62D6-60A7-047E5369C662" name="FK_POST_PROG_ESP_PROG">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE530CD4-1378-2301-884E-3EC824868503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

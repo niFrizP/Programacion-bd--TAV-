@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DAE5D3-A7CD-8B9D-D5E8-63C1B5F81E0E" name="INFO_POSTULANTE">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>INFO_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUN_POSTULANTE" id="A1FB945B-B6B6-8AEB-C74F-1179A3138482">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INFO_POSTULANTE</sourceObjSchema>
+<sourceObjName>RUN_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_POSTULANTE" id="3D4D3EF9-41D6-BDF8-2713-2185C491655C">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INFO_POSTULANTE</sourceObjSchema>
+<sourceObjName>NOMBRE_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANTIGUEDAD" id="4DAC5F22-C214-F8C6-28A2-44617CD445A4">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INFO_POSTULANTE</sourceObjSchema>
+<sourceObjName>ANTIGUEDAD</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ULTIMO_CONTRATO" id="21593A0A-4291-2243-3417-B8FBFAF1F967">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INFO_POSTULANTE</sourceObjSchema>
+<sourceObjName>FECHA_ULTIMO_CONTRATO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_TRABAJOS" id="FA7D236E-E947-6239-2FD6-4E060440901A">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INFO_POSTULANTE</sourceObjSchema>
+<sourceObjName>CANTIDAD_TRABAJOS</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMA_REGION_TRABAJO" id="8472196F-4853-AF69-0E2E-6FA9FDD1E0D4">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INFO_POSTULANTE</sourceObjSchema>
+<sourceObjName>ULTIMA_REGION_TRABAJO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="524EDABA-59DD-F940-5F09-8F7A0EC0BAE4" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="INFO_POSTULANTE_PK">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>SYS_C009380</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1FB945B-B6B6-8AEB-C74F-1179A3138482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

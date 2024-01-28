@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D8A0194-C0ED-D9A5-7B94-A30F489F60A6" containerWithKeyObject="9F1A70AA-894B-BC45-1538-EA4D32917AEC" localFKIndex="C08E839B-DB69-CC1B-B642-D1582D15D503" name="FK_ANT_PER_PIND">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>FK_ANT_PER_PIND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<referredTableLongName>PUEBLO_INDIGENA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05256FAA-52E1-59D4-94C0-4587E6ADDD39</referredTableID>
+<keyObject>260867C7-5167-7513-5C1B-FBD6F694B31B</keyObject>
+<referredKeyID>260867C7-5167-7513-5C1B-FBD6F694B31B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COD_PUEBLO_IND</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

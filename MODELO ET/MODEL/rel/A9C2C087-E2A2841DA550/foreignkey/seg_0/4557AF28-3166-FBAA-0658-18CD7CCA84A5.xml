@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4557AF28-3166-FBAA-0658-18CD7CCA84A5" containerWithKeyObject="D12207E4-DB08-9F34-6CC9-904C890086F9" localFKIndex="70E89D34-39F1-B7CC-D0D9-CA498B967D51" name="FK_PROG_ESP_INST">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>FK_PROG_ESP_INST</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<referredTableLongName>INSTITUCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3EC06F9-E1BF-AE1F-93BD-F70ABF7B8520</referredTableID>
+<keyObject>98CEE39E-CF1A-F2A4-9346-61A461884AB6</keyObject>
+<referredKeyID>98CEE39E-CF1A-F2A4-9346-61A461884AB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_INST</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

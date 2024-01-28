@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E97ED475-86A2-1F37-ED4F-15A4A1143739" name="PTJE_PUEBLO_INDIGENA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PTJE_PUEBLO_INDIGENA</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PUEBLO_IND" id="333A05E5-202F-BCDB-A7C9-DA83505BEC9E">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>PTJE_PUEBLO_INDIGENA</sourceObjSchema>
+<sourceObjName>COD_PUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_PUEBLO_IND" id="F34A066B-A278-EB38-7370-593A9DF95357">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>PTJE_PUEBLO_INDIGENA</sourceObjSchema>
+<sourceObjName>PTJE_PUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D2D2A95-F8A2-D5CA-E9B3-CCD467EB4B0B" name="PK_PTJE_OUEBLO_IND">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_PTJE_OUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333A05E5-202F-BCDB-A7C9-DA83505BEC9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD4ADFDD-A1CB-4106-AF47-0046DB4C1412" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_PTJE_OUEBLO_IND">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_PTJE_OUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333A05E5-202F-BCDB-A7C9-DA83505BEC9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

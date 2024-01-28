@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05256FAA-52E1-59D4-94C0-4587E6ADDD39" name="PUEBLO_INDIGENA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PUEBLO_INDIGENA</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PUEBLO_IND" id="F3A5F854-8DF4-0CD1-A1E9-7BBFC07E8E96">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>PUEBLO_INDIGENA</sourceObjSchema>
+<sourceObjName>COD_PUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUEBLO_IND" id="D987D052-0137-CCBD-702D-C23538085303">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>PUEBLO_INDIGENA</sourceObjSchema>
+<sourceObjName>NOMBRE_PUEBLO_IND</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="260867C7-5167-7513-5C1B-FBD6F694B31B" name="PK_PUEBLOS_INDIG">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_PUEBLOS_INDIG</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A5F854-8DF4-0CD1-A1E9-7BBFC07E8E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4973B043-6AA0-FFD1-AA32-F45A9A2E4C18" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_PUEBLOS_INDIG">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_PUEBLOS_INDIG</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A5F854-8DF4-0CD1-A1E9-7BBFC07E8E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

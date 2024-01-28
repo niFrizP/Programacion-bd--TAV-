@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FCFB0BD-AC39-2F39-2D6F-431C95375575" containerWithKeyObject="DE0A7232-38D1-08FF-4204-212A44402568" localFKIndex="85E83AD9-DD3C-E299-AB9F-0B6EA9C2E0FF" name="FK_POST_PROG_ESP_ANTPER">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>FK_POST_PROG_ESP_ANTPER</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<referredTableLongName>ANTECEDENTES_PERSONALES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F1A70AA-894B-BC45-1538-EA4D32917AEC</referredTableID>
+<keyObject>47F3FCF7-31A5-2CCA-5F6E-D8F73A29A987</keyObject>
+<referredKeyID>47F3FCF7-31A5-2CCA-5F6E-D8F73A29A987</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMRUN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

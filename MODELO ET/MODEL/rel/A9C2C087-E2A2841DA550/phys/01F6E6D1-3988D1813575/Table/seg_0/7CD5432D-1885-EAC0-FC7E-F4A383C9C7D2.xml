@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SERVICIO_LOCAL_EDUCP" directorySegmentName="seg_0" id="7CD5432D-1885-EAC0-FC7E-F4A383C9C7D2">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8A77A065-8728-F35E-21D2-B9F67F4DAF9E</segment>
+<tableSpace>7902A95A-776F-ED57-222C-BE880B711203</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ZONA_RURAL" id="28084B45-61A4-FD6B-9D09-8F7C26F0FA51">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESC_SERV_EDUCP" id="B8D3B513-322A-83BB-BE2C-C53ED092467B">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SERV_EDUCP" id="D25AE0FC-16FD-224F-DF5D-0C20A03088EA">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_REGION" id="FB4C74FA-18E7-A83C-6199-63E466ECC6E3">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SERV_LOCAL_EDUCP" id="A80EF6CF-274B-B7D7-4D4D-688BFEC5FF8B">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<schemaObject>B27C083D-4135-3ACC-9DFB-D4DBE3A116D5</schemaObject>
+<segment>98D9E911-3FEF-C033-CE5B-3C3956CAE33B</segment>
+<tableSpace>7902A95A-776F-ED57-222C-BE880B711203</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SERV_LOCALEP_REGION" id="121443BB-D60F-126D-2A1F-7C8FA8CB3E44">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SERV_LOCAL_EDUCP" id="599E20ED-CFCF-3CE5-7EA6-80CD085A6ABC">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<segment>98D9E911-3FEF-C033-CE5B-3C3956CAE33B</segment>
+<tableSpace>7902A95A-776F-ED57-222C-BE880B711203</tableSpace>
+<existingIndex>A80EF6CF-274B-B7D7-4D4D-688BFEC5FF8B</existingIndex>
+<indexSegment>98D9E911-3FEF-C033-CE5B-3C3956CAE33B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

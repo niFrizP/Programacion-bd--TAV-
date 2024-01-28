@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB81B902-7F40-DBBD-1498-8A86A7D6F9D1" name="CLASIFICACION_POSTULANTE">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>CLASIFICACION_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUN_POSTULANTE" id="C6A16B38-99B4-458B-6F5D-200E7A57BAE1">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>CLASIFICACION_POSTULANTE</sourceObjSchema>
+<sourceObjName>RUN_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ULTIMO_CONTRATO" id="13245BFA-F9B9-3831-1B16-517563DB34DF">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>CLASIFICACION_POSTULANTE</sourceObjSchema>
+<sourceObjName>FECHA_ULTIMO_CONTRATO</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASIFICACION" id="3E63766C-2AF5-0933-DE5F-8477423D3DF3">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>CLASIFICACION_POSTULANTE</sourceObjSchema>
+<sourceObjName>CLASIFICACION</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="760C23AD-61FE-CB35-EB31-EB3796705A20" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="CLASIFICACION_POSTULANTE_PK">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>SYS_C009383</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6A16B38-99B4-458B-6F5D-200E7A57BAE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

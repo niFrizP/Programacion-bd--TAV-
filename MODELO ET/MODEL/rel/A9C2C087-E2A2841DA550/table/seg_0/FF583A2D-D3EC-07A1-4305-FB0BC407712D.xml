@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF583A2D-D3EC-07A1-4305-FB0BC407712D" name="DETALLE_PUNTAJE_POSTULACION">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>DETALLE_PUNTAJE_POSTULACION</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUN_POSTULANTE" id="8D676EA6-8371-0B79-DDF0-602313DD0C68">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>RUN_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_POSTULANTE" id="34007E8D-EC6B-2A65-ADDD-0B643A65FFD8">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>NOMBRE_POSTULANTE</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_ZONA_RURAL" id="3849A70C-EE0C-A4DE-CDBC-0E1FDAB96E89">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>PTJE_ZONA_RURAL</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_PUEBLO_INDIGENA" id="209A763F-886A-BDE6-9781-93CAF12FCEBA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>PTJE_PUEBLO_INDIGENA</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_ANNOS_EXP" id="48ABD096-6E93-1BAD-720F-CE83A4D991A7">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>PTJE_ANNOS_EXP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_PAIS_POSTULA" id="B233D1A0-4832-7EDA-8DE0-92D22C95E9C0">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>PTJE_PAIS_POSTULA</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_EXTRA_1" id="AAF6C40E-3A0A-C68D-ADD3-51BA5FB1CC14">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>PTJE_EXTRA_1</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTJE_EXTRA_2" id="A999EBB1-2AB7-A325-D50D-4E22E8ACDD2D">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>DETALLE_PUNTAJE_POSTULACION</sourceObjSchema>
+<sourceObjName>PTJE_EXTRA_2</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2078ADD3-9A33-26C3-3087-BC43052660CE" name="PK_DET_PTJE_POST">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_DET_PTJE_POST</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D676EA6-8371-0B79-DDF0-602313DD0C68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE737896-8844-1589-2DE8-B05223989AE0" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_DET_PTJE_POST">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_DET_PTJE_POST</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D676EA6-8371-0B79-DDF0-602313DD0C68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

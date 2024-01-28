@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3EC06F9-E1BF-AE1F-93BD-F70ABF7B8520" name="INSTITUCION">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>INSTITUCION</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:54:59 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_INST" id="0CCF189B-C236-935B-E3EB-1032B75D3ECA">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INSTITUCION</sourceObjSchema>
+<sourceObjName>COD_INST</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_INST" id="EACEDE72-A0AB-2302-AC74-3DD9C810E154">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INSTITUCION</sourceObjSchema>
+<sourceObjName>NOMBRE_INST</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PAIS" id="2FB161C0-A4FC-C892-36BC-A5EFDFAF17B5">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>INSTITUCION</sourceObjSchema>
+<sourceObjName>COD_PAIS</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:00 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4776AF6-24A2-DC6B-374A-89E6C48E58AD" referredColumn="1B42AD4E-271C-753C-436F-A963750E4F27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98CEE39E-CF1A-F2A4-9346-61A461884AB6" name="PK_INSTITUCION">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_INSTITUCION</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CCF189B-C236-935B-E3EB-1032B75D3ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F547B3F4-0267-83A9-A9B1-8DC7EB901622" schemaObject="B27C083D-4135-3ACC-9DFB-D4DBE3A116D5" name="PK_INSTITUCION">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>PK_INSTITUCION</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:03 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CCF189B-C236-935B-E3EB-1032B75D3ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33175F84-43DF-263F-3B63-265762B76382" name="FK_INST_PAIS">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB161C0-A4FC-C892-36BC-A5EFDFAF17B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

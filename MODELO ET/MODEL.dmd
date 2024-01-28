@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODEL" id="BEB1BDFE-4F96-7DF7-E728-320F6A4DEDA2" version="3.5">
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:48:22 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BEB1BDFE-4F96-7DF7-E728-320F6A4DEDA2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BEB1BDFE-4F96-7DF7-E728-320F6A4DEDA2">
+<designStoragePath>C:\Users\nikoo\Desktop\MODELO ET\MODEL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

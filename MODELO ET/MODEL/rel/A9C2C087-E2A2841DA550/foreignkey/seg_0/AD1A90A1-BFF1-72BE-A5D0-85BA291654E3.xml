@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD1A90A1-BFF1-72BE-A5D0-85BA291654E3" containerWithKeyObject="8C9CAAF8-2ABA-990F-243B-3803EFC0F833" localFKIndex="F6CDAA9E-91F7-AE52-1A8F-C2437FE746B8" name="FK_ANT_LAB_SERVEDUCP">
+<sourceConnName>ET_prep</sourceConnName>
+<sourceObjSchema>ET_PREP</sourceObjSchema>
+<sourceObjName>FK_ANT_LAB_SERVEDUCP</sourceObjName>
+<createdBy>nikoo</createdBy>
+<createdTime>2024-01-25 12:55:04 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<referredTableLongName>SERVICIO_LOCAL_EDUCP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CD5432D-1885-EAC0-FC7E-F4A383C9C7D2</referredTableID>
+<keyObject>599E20ED-CFCF-3CE5-7EA6-80CD085A6ABC</keyObject>
+<referredKeyID>599E20ED-CFCF-3CE5-7EA6-80CD085A6ABC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SERV_EDUCP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
